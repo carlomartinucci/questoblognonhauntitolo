@@ -42,7 +42,7 @@ const BlogIndex = ({ data, location }) => {
                     itemProp="description"
                   />{" "}
                   <Link to={post.fields.slug} itemProp="url">
-                    (Leggi l'articolo)
+                    (continua)
                   </Link>
                 </section>
               </article>
