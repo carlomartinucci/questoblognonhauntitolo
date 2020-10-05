@@ -1,21 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, description, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
 
   if (isRootPath) {
-    header = (
-      <h1 className="main-heading">
+    header = [
+      <h1 key="h1">
         <Link to="/">{title}</Link>
-      </h1>
-    )
+      </h1>,
+      ` `,
+      <h2 key="h2">{description}</h2>,
+    ]
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
+      <Link to="/">
+        ← Torna alla pagina principale di questo blog, che non ha un titolo
       </Link>
     )
   }
@@ -24,11 +26,7 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      <footer>© {new Date().getFullYear()}</footer>
     </div>
   )
 }

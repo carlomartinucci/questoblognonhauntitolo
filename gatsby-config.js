@@ -1,15 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Questo blog non ha un titolo.`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Carlo Martinucci`,
+      summary: `un tizio che ha deciso che il mondo va a rotoli perché le persone si fermano ai titoli`,
+      email: "carlo.m@hey.com",
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `Per leggere questo blog non puoi fermarti al titolo, perché non c'è.`,
+    siteUrl: `https://questoblognonhauntitolo.netlify.app/`,
   },
   plugins: [
     {
@@ -53,15 +51,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-179717117-1`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Questo blog non ha un titolo`,
+        short_name: `No titolo`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
