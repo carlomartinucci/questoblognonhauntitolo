@@ -1,4 +1,5 @@
 import React from "react"
+import Bio from "./bio"
 import { Link } from "gatsby"
 
 const Layout = ({ location, title, description, children }) => {
@@ -8,6 +9,7 @@ const Layout = ({ location, title, description, children }) => {
 
   if (isRootPath) {
     header = [
+      <Bio key="bio" />,
       <h1 key="h1">
         <Link to="/">{title}</Link>
       </h1>,
