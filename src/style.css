@@ -230,10 +230,6 @@ a:focus {
   color: var(--color-primary);
 }
 
-.post-list-item header {
-  margin-bottom: var(--spacing-2);
-}
-
 .header-link-home {
   font-weight: var(--fontWeight-bold);
   font-family: var(--font-heading);
@@ -243,11 +239,6 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-10);
-}
-
-.bio p {
-  margin-bottom: var(--spacing-0);
 }
 
 .bio-avatar {
