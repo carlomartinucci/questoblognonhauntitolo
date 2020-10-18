@@ -113,7 +113,7 @@ Per chi sostiene questa legge, chi pensa che il matrimonio sia un istituto riser
 
 Ora, se un politico propagandasse in pubblico, in campagna elettorale, l'intenzione di voler limitare il matrimonio a sole persone con lo stesso colore della pelle, sarebbe perseguibile dalla Reale Mancino?
 
-Forse il politico potrebbe cercare di provare in tribunale che la proposta non dipende e non riguarda odio raziale o convinzione di una superiorità ma altro. Sarebbe indagato? Probabilmente sì. Sarebbe condannato? Impossibile dirlo. Dipende da moltissimi fattori, primo tra tutti le parole esatte che dice.
+Forse il politico potrebbe cercare di provare in tribunale che la proposta non dipende e non riguarda odio razziale o convinzione di una superiorità ma altro. Sarebbe indagato? Probabilmente sì. Sarebbe condannato? Impossibile dirlo. Dipende da moltissimi fattori, primo tra tutti le parole esatte che dice.
 
 E se un politico propagandasse in pubblico, in campagna elettorale, l'intenzione di voler abolire le unioni civili e continuare ad escludere dal matrimonio le persone con lo stesso sesso, sarà perseguibile dalla legge Zan?
 
