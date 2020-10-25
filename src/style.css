@@ -189,6 +189,16 @@ table thead tr th {
   border-bottom: 1px solid var(--color-accent);
 }
 
+/* Form (subscription) */
+
+form {
+  margin-bottom: var(--spacing-8);
+}
+
+form p {
+  margin-bottom: var(--spacing-2);
+}
+
 /* Link */
 
 a {

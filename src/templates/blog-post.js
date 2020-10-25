@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import Subscribe from "../components/subscribe"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -34,6 +35,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <hr />
         <footer>
           <Bio />
+          <Subscribe />
         </footer>
       </article>
       <nav className="blog-post-nav">
