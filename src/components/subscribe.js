@@ -106,45 +106,65 @@ const Form = ({
   handleChangeName,
   disabled,
   children,
-}) => (
-  <form onSubmit={onSubmit}>
-    <p>
-      Se vuoi ricevere una email quando scrivo qualcosa, lasciami il tuo
-      indirizzo email e il tuo nome.
-    </p>
-    <p>
-      <label htmlFor="email">Qual è il tuo indirizzo email?</label>
-      <br />
-      <input
-        type="email"
-        id="email"
-        placeholder="il.tuo@indirizzo.com"
-        value={email}
-        onChange={handleChangeEmail}
-        disabled={disabled}
-        required
-      ></input>
-    </p>
-    <p>
-      <label htmlFor="name">Come ti chiami?</label>
-      <br />
-      <input
-        type="text"
-        id="name"
-        placeholder="Giovanni"
-        value={name}
-        required
-        disabled={disabled}
-        onChange={handleChangeName}
-      ></input>
-    </p>
-    <p>
-      <button type="submit" disabled={disabled}>
-        {disabled ? "Ti sto registrando..." : "Registrati"}
-      </button>
-    </p>
-    {children}
-  </form>
-)
+}) => {
+  const [placeholder] = useState(() => sample(placeholders))
+
+  return (
+    <form onSubmit={onSubmit}>
+      <p>
+        Se vuoi ricevere una email quando scrivo qualcosa, lasciami il tuo
+        indirizzo email e il tuo nome.
+      </p>
+      <p>
+        <label htmlFor="email">Qual è il tuo indirizzo email?</label>
+        <br />
+        <input
+          type="email"
+          id="email"
+          placeholder={placeholder[1]}
+          value={email}
+          onChange={handleChangeEmail}
+          disabled={disabled}
+          required
+        ></input>
+      </p>
+      <p>
+        <label htmlFor="name">Come ti chiami?</label>
+        <br />
+        <input
+          type="text"
+          id="name"
+          placeholder={placeholder[0]}
+          value={name}
+          required
+          disabled={disabled}
+          onChange={handleChangeName}
+        ></input>
+      </p>
+      <p>
+        <button type="submit" disabled={disabled}>
+          {disabled ? "Ti sto registrando..." : "Registrati"}
+        </button>
+      </p>
+      {children}
+    </form>
+  )
+}
+
+const placeholders = [
+  ["Guybrush", "guybrush.ulysses@threepwood.com"],
+  ["Chuckie", "le.chuck@vodoo.com"],
+  ["Elaine", "elaine.marley@melee.gov"],
+  ["Benjamin", "benjamin.sisko@starfleet.com"],
+  ["Jadzia", "jadzia.dax@trill.com"],
+  ["Boba", "boba.fett@bountyhunter.com"],
+  ["Sheev", "sheev.palpatine@naboo.gov"],
+  ["Luke", "luke.skywalker@force.jedi"],
+  ["Leia", "leia.organa@rebel.com"],
+  ["Han", "han.solo@rebel.com"],
+  ["Yoda", "yoda@force.jedi"],
+]
+
+const sample = array => array[Math.floor(Math.random() * array.length)]
 
 export default Subscribe
