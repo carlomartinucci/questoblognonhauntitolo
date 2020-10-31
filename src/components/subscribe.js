@@ -158,7 +158,7 @@ const placeholders = [
   ["Benjamin", "benjamin.sisko@starfleet.com"],
   ["Jadzia", "jadzia.dax@trill.com"],
   ["Boba", "boba.fett@bountyhunter.com"],
-  ["Sheev", "sheev.palpatine@naboo.gov"],
+  ["Sheev", "senator.palpatine@naboo.gov"],
   ["Luke", "luke.skywalker@force.jedi"],
   ["Leia", "leia.organa@rebel.com"],
   ["Han", "han.solo@rebel.com"],
