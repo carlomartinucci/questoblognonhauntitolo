@@ -184,6 +184,15 @@ const placeholders = [
   ["Arthur", "arthur.weasley@ministerofmagic.gov"],
   ["Severus", "severus.snape@hogwarts.hog"],
   ["Jon", "jon.snow@youknownothing.dumb"],
+  ["King", "stannis.baratheon@onetrueking.storm"],
+  ["Petyr", "petyr.littlefinger@masterofcoin.gov"],
+  ["Jaime", "jaime.lannister@kingslayer.net"],
+  ["Kahl", "kahl.drogo@dotraki.org"],
+  ["Walter", "walter.white@eisenberg.com"],
+  ["Alicia", "alicia.florrick@chumhum.com"],
+  ["Varys", "lord.varys@masterofwhispers.gov"],
+  ["Aerys", "aerys.targaryen@burnthemall.crazy"],
+  ["Hodor", "hodor@hodor.hodor"],
 ]
 
 const useRandom = array => {
