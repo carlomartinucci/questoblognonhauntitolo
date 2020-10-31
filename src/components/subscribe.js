@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import addToMailchimp from "gatsby-plugin-mailchimp"
 
 const Subscribe = props => {
@@ -107,7 +107,8 @@ const Form = ({
   disabled,
   children,
 }) => {
-  const [placeholder] = useState(() => sample(placeholders))
+  // const [placeholder] = useState(() => sample(placeholders))
+  const placeholder = useRandom(placeholders)
 
   return (
     <form onSubmit={onSubmit}>
@@ -121,7 +122,7 @@ const Form = ({
         <input
           type="email"
           id="email"
-          placeholder={placeholder[1]}
+          placeholder={placeholder ? placeholder[1] : ""}
           value={email}
           onChange={handleChangeEmail}
           disabled={disabled}
@@ -134,7 +135,7 @@ const Form = ({
         <input
           type="text"
           id="name"
-          placeholder={placeholder[0]}
+          placeholder={placeholder ? placeholder[0] : ""}
           value={name}
           required
           disabled={disabled}
@@ -185,6 +186,18 @@ const placeholders = [
   ["Jon", "jon.snow@youknownothing.dumb"],
 ]
 
-const sample = array => array[Math.floor(Math.random() * array.length)]
+const useRandom = array => {
+  const [value, setValue] = useState(null)
+
+  useEffect(() => {
+    if (value === null) {
+      setValue(array[Math.floor(Math.random() * array.length)])
+    }
+  }, [array, value, setValue])
+
+  return value
+}
+
+// const sample = array => array[Math.floor(Math.random() * array.length)]
 
 export default Subscribe
