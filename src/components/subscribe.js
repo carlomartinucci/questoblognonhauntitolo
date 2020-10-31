@@ -163,6 +163,9 @@ const placeholders = [
   ["Leia", "leia.organa@rebel.com"],
   ["Han", "han.solo@rebel.com"],
   ["Yoda", "yoda@force.jedi"],
+  ["Frodo", "frodo.baggins@theshire.com"],
+  ["Gollum", "gollum.smeagol@myprecious.mor"],
+  ["Theoden", "king.theoden@rohan.gov"],
 ]
 
 const sample = array => array[Math.floor(Math.random() * array.length)]
