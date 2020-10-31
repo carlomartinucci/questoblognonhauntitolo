@@ -166,6 +166,23 @@ const placeholders = [
   ["Frodo", "frodo.baggins@theshire.com"],
   ["Gollum", "gollum.smeagol@myprecious.mor"],
   ["Theoden", "king.theoden@rohan.gov"],
+  ["Harry", "harry.potter@gryffindor.hog"],
+  ["Hermione", "hermione.granger@gryffindor.hog"],
+  ["Garrick", "garrick.ollivander@ravenclaw.hog"],
+  ["Luna", "luna.lovegood@ravenclaw.hog"],
+  ["Draco", "draco.malfoy@slytherin.hog"],
+  ["Tom", "dark.lord@youknowwho.evil"],
+  [
+    "Daenerys",
+    "daenerys.targaryen@FirstofHerNameQueenoftheAndalsandtheFirstMenProtectoroftheSevenKingdomstheMotherofDragonstheKhaleesioftheGreatGrassSeatheUnburnttheBreakerofChains.7k",
+  ],
+  ["Sirius", "sirius.black@orderofthephoenyx.org"],
+  ["Cedric", "cedric.diggory@hufflepuff.hog"],
+  ["Nymphadora", "nymphadora.tonks@hufflepuff.hog"],
+  ["Molly", "molly.weasley@orderofthephoenyx.org"],
+  ["Arthur", "arthur.weasley@ministerofmagic.gov"],
+  ["Severus", "severus.snape@hogwarts.hog"],
+  ["Jon", "jon.snow@youknownothing.dumb"],
 ]
 
 const sample = array => array[Math.floor(Math.random() * array.length)]
