@@ -3,14 +3,16 @@ import useInterval from "./useInterval"
 const delay = 60 * 1000
 
 const changeFavicon = emoji => {
+  if (!global.document) return
+
   const link =
-    document.querySelector("link[rel*='icon']") ||
-    document.createElement("link")
+    global.document.querySelector("link[rel*='icon']") ||
+    global.document.createElement("link")
   link.type = "image/svg+xml"
   link.rel = "shortcut icon"
   link.href = faviconHref(emoji)
 
-  document.getElementsByTagName("head")[0].appendChild(link)
+  global.document.getElementsByTagName("head")[0].appendChild(link)
 }
 
 const faviconHref = emoji =>
