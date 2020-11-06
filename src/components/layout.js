@@ -2,8 +2,10 @@ import React from "react"
 import Bio from "./bio"
 import Subscribe from "./subscribe"
 import { Link } from "gatsby"
+import useTimeFavicon from "../hooks/useTimeFavicon"
 
 const Layout = ({ location, title, description, children }) => {
+  useTimeFavicon()
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
