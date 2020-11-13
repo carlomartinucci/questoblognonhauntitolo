@@ -4,7 +4,7 @@ import Subscribe from "./subscribe"
 import { Link } from "gatsby"
 import useTimeFavicon from "../hooks/useTimeFavicon"
 
-const Layout = ({ location, title, description, children }) => {
+const Layout = ({ location, title, description, rssPath, children }) => {
   useTimeFavicon()
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
@@ -33,7 +33,9 @@ const Layout = ({ location, title, description, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
 
-      <footer>© {new Date().getFullYear()}</footer>
+      <footer>
+        © {new Date().getFullYear()} <Link to={rssPath}>RSS Feed</Link>
+      </footer>
     </div>
   )
 }
