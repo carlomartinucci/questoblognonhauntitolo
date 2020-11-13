@@ -2,6 +2,7 @@
 title: Le cose che mi interessano sono quelle che rimarranno importanti tra un mese
 date: "2020-11-07"
 description: anche se sono state attuali un mese fa e ora non fanno più notizia.
+newsletter: Per il mio ultimo post, ho recuperato una cosa che avevo scritto in un mio vecchio esperimento intitolato "fuori tempo massimo". E' una riflessione sulla durabilità dell'informazione. Le ho tolto il titolo, ho appurato che è ancora rilevante, e ora te la propongo. Spero tu la possa trovare utile :)
 ---
 
 Se una notizia è stata data oggi, probabilmente non ne voglio ancora parlare. Se il mese prossimo sarà ancora importante, ecco che è una buona candidata ad avere la mia attenzione, anche se è un mese che i media non ne parlano, e forse a maggior ragione se non ne parla più nessuno!

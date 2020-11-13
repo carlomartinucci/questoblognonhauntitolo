@@ -8,7 +8,7 @@ module.exports = {
     },
     description: `Per leggere questo blog non puoi fermarti al titolo, perché non c'è. In compenso ci sono degli articoli (anch'essi senza titolo). Spero tu possa trovarci qualcosa di interessante, utile o inaspettato, e che tu abbia voglia di scrivermi che cosa ne pensi :)`,
     siteUrl: `https://questoblognonhauntitolo.netlify.app/`,
-    rssPath: `rss.xml`,
+    rssPath: `/rss.xml`,
   },
   plugins: [
     {
@@ -75,6 +75,7 @@ module.exports = {
               return allMarkdownRemark.edges.map(edge => {
                 return {
                   title: edge.node.frontmatter.title,
+                  description: edge.node.frontmatter.newsletter,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -98,6 +99,7 @@ module.exports = {
                       frontmatter {
                         title
                         description
+                        newsletter
                         date
                       }
                     }
