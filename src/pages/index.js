@@ -10,7 +10,12 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.nodes
 
   return (
-    <Layout location={location} title={siteTitle} description={siteDescription}>
+    <Layout
+      location={location}
+      title={siteTitle}
+      description={siteDescription}
+      rssPath={data.site.siteMetadata.rssPath}
+    >
       <SEO title="Tutti i post" />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
@@ -60,6 +65,7 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
+        rssPath
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {

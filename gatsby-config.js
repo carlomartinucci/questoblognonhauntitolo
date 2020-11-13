@@ -8,6 +8,7 @@ module.exports = {
     },
     description: `Per leggere questo blog non puoi fermarti al titolo, perché non c'è. In compenso ci sono degli articoli (anch'essi senza titolo). Spero tu possa trovarci qualcosa di interessante, utile o inaspettato, e che tu abbia voglia di scrivermi che cosa ne pensi :)`,
     siteUrl: `https://questoblognonhauntitolo.netlify.app/`,
+    rssPath: `rss.xml`,
   },
   plugins: [
     {
@@ -54,7 +55,70 @@ module.exports = {
         trackingId: `UA-179717117-1`,
       },
     },
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return {
+                  title: edge.node.frontmatter.title,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [
+                    {
+                      "content:encoded": `<p>${edge.node.frontmatter.title} ${edge.node.frontmatter.description}</p> ${edge.node.html}`,
+                    },
+                  ],
+                }
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  edges {
+                    node {
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        description
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Questo feed non ha un titolo.",
+            // optional configuration to insert feed reference in pages:
+            // if `string` is used, it will be used to create RegExp and then test if pathname of
+            // current page satisfied this regular expression;
+            // if not provided or `undefined`, all pages will have feed reference inserted
+            match: "^/blog/",
+            language: "it",
+            // optional configuration to specify external rss feed, such as feedburner
+            // link: "https://feeds.feedburner.com/gatsby/blog",
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

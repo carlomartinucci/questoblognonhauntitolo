@@ -193,6 +193,7 @@ const placeholders = [
   ["Varys", "lord.varys@masterofwhispers.gov"],
   ["Aerys", "aerys.targaryen@burnthemall.crazy"],
   ["Hodor", "hodor@hodor.hodor"],
+  // president bartlet
 ]
 
 const useRandom = array => {
