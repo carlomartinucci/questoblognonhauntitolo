@@ -141,6 +141,7 @@ module.exports = {
           "https://app.us20.list-manage.com/subscribe/post?u=cc8a914b63d9cec896d38f95e&id=9d1aee4563",
       },
     },
+    `gatsby-plugin-netlify`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
