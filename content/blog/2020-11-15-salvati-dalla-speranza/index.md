@@ -1,0 +1,38 @@
+---
+title: Sono tempi difficili e di grande confusione.
+date: "2020-11-15"
+description: Non sono in grado di dire se siano tempi più difficili rispetto ad altri.
+newsletter:
+---
+
+Viene in mente Giovanni Lindo Ferretti, quando [canta](https://www.youtube.com/watch?v=ZA8G48tl97s) "certo le circostanze non sono favorevoli - e quando mai? Bisognerebbe... bisognerebbe niente: bisogna quello che è, bisogna il presente". Non mi metto dunque a fare confronti, ma solo ad annotare che osservo in tanti amici confusione, amarezza, e la tentazione allo scoraggiamento, a causa (anche) delle tante terribili notizie che vengono dal mondo.
+
+Solo per evocarne alcune: la pandemia globale e le reazioni dei singoli e dei governi, il rinnovato sterminio degli Armeni e la (non) risposta internazionale, le vittime francesi dell'odio islamista (Nadine Devillers, Vincent Loquès, Simon Barreto-Silva, Samuel Paty, Hervé Cornara, Jean-Baptiste Salvaing, Jessica Schneider, Jacques Hamel e tutti gli altri, ignoti a noi ma non a Dio), la situazione dei cristiani in Cina, India e tante parti del mondo.
+
+Ciascuno aggiunga poi le proprie tribolazioni e le situazioni difficili che gli stanno a cuore. Nessuno ritenga le proprie pene indegne di essere accostate a quelle più grandi che affliggono il mondo. Ciascuno è un mondo a sé, e nessun dolore, per quanto piccolo, è indegno di essere preso in considerazione. A nessuna persona è legittimo dire: "il tuo dolore non vale nulla".
+
+Sono tempi difficili e di grande confusione. Ma la tristezza, lo sconforto e anche il senso di nausea sono seminati dal Diavolo, che esiste, è un essere personale, e vuole rubarci la Speranza per farci cadere nella disperazione.
+
+Ora, la Speranza è una virtù teologale, assieme a Fede e Carità. Quindi da un lato è un dono. Dall'altro però, ci si può esercitare alla Speranza, ad una speranza che non è vuota illusione o mero "pensare positivo" e nemmeno stolida ignoranza del male.
+
+Come ci si esercita alla Speranza? Papa Benedetto XVI [nella Spe Salvi](http://www.vatican.va/content/benedict-xvi/it/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html) individua tre luoghi di apprendimento della speranza: la preghiera, il giudizio, e infine l'azione e il sacrificio.
+
+La preghiera è forse il più banale dei tre: se chiedi ad un Papa come risolvere un qualsiasi problema, come minimo ti aspetti che la preghiera faccia sempre parte delle soluzioni!, ma ci sono un paio di considerazioni tutt'altro che banali. La preghiera, dice Sant'Agostino, è "esercizio del desiderio".
+
+> Il giusto modo di pregare è un processo di purificazione interiore che ci fa capaci per Dio e, proprio così, anche capaci per gli uomini. Nella preghiera l'uomo deve imparare che cosa egli possa veramente chiedere a Dio – che cosa sia degno di Dio. Deve imparare che non può pregare contro l'altro. Deve imparare che non può chiedere le cose superficiali e comode che desidera al momento – la piccola speranza sbagliata che lo conduce lontano da Dio. ([Spe Salvi, 33](http://www.vatican.va/content/benedict-xvi/it/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html#33.))
+
+Per usare un'espressione non esattamente magisteriale, tra le altre cose pregare ti aiuta a "non chiederti cosa gli altri possono fare per te, ma a chiederti cosa puoi fare tu per gli altri" (liberamente adattata da John Fitzgerald Kennedy).
+
+Il secondo luogo di apprendimento della speranza è il Giudizio. Quando morirò, io credo che andrò incontro al Giudizio particolare: sarò di fronte a Cristo, giusto giudice, avrò al mio fianco Maria, Avvocata nostra, e sarò giudicato sull'amore che avrò accettato e dato in questa vita. Come conseguenza, questo mi porrà o lontano da Dio, all'inferno, o vicino a lui, in Paradiso, per l'eternità. Alla fine dei tempi, poi, ci sarà un altro giudizio, il Giudizio Universale, nel quale tutte le trame della storia verranno svelate, come uno straordinario arazzo di cui ora vediamo solo il retro e che finalmente verrà girato.
+
+Vedremo tutti gli uomini e le donne che hanno potere e influenza, e molti di loro si riveleranno per le piccole, meschine persone che sono state. Vedremo gli ultimi, quelli a cui nessuno avrebbe dato un euro, ergersi come giganti. Vedremo le vecchiette che tutti i giorni recitano il Rosario, nello scherno dei sapienti, per quello che veramente sono: colonne che con le loro preghiere hanno retto il mondo. Vedremo i piccoli quotidiani gesti d'amore delle madri e dei padri splendere come fari nella notte, e le importanti decisioni in alti e sontuosi palazzi opacizzarsi, irrilevanti e meschine. Vedremo il rovesciamento, molti ultimi diventare primi, e i primi ultimi, vedremo la fine e il compimento di ogni cosa.
+
+Vedremo le nostre azioni intrecciate con quelle di tutti gli altri, e il contributo che la nostra vita ha avuto sulla santità di chi ci è stato vicino. Vedremo quel gesto buono, che avevamo ritenuto piccolo e da poco, sbocciare nella vita di uno sconosciuto, ora diventato a noi familiare in Dio. Vedremo quanto gli altri hanno fatto per noi, e a ciascuno di loro, ora potremo rivolgere la nostra piena riconoscenza, fratelli e sorelle in Cristo.
+
+> Dio c'è, e Dio sa creare la giustizia in un modo che noi non siamo capaci di concepire e che, tuttavia, nella fede possiamo intuire. [...] Esiste una giustizia. Esiste la «revoca» della sofferenza passata, la riparazione che ristabilisce il diritto. Per questo la fede nel Giudizio finale è innanzitutto e soprattutto speranza – quella speranza, la cui necessità si è resa evidente proprio negli sconvolgimenti degli ultimi secoli. ([Spe Salvi, 43](http://www.vatican.va/content/benedict-xvi/it/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html#43.))
+
+Il terzo luogo dell'apprendimento della speranza, infine, è l'azione e il sacrificio. I nostri sforzi quotidiani per cercare di costruire un mondo migliore, per noi, per i nostri figli, per i nostri amici, per tutte le persone che conosciamo e che non conosciamo, corrono costantemente il rischio di spegnersi nella stanchezza o di incancrenirsi nel fanatismo. La speranza qui è una necessità: se ci fermiamo alle prospettive di questo mondo, ogni nostro sforzo è vano.
+
+> Ma l'impegno quotidiano per la prosecuzione della nostra vita e per il futuro dell'insieme ci stanca o si muta in fanatismo, se non ci illumina la luce di quella grande speranza che non può essere distrutta neppure da insuccessi nel piccolo e dal fallimento in vicende di portata storica. Se non possiamo sperare più di quanto è effettivamente raggiungibile di volta in volta e di quanto di sperabile le autorità politiche ed economiche ci offrono, la nostra vita si riduce ben presto ad essere priva di speranza. È importante sapere: io posso sempre ancora sperare, anche se per la mia vita o per il momento storico che sto vivendo apparentemente non ho più niente da sperare. Solo la grande speranza-certezza che, nonostante tutti i fallimenti, la mia vita personale e la storia nel suo insieme sono custodite nel potere indistruttibile dell'Amore e, grazie ad esso, hanno per esso un senso e un'importanza, solo una tale speranza può in quel caso dare ancora il coraggio di operare e di proseguire. ([Spe Salvi, 35](http://www.vatican.va/content/benedict-xvi/it/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html#35.))
+
+Credo che questa grande enciclica abbia molto da dire a noi, oggi, tentati alla disperazione, in un mondo che conosce solo la sofferenza inutile, che fugge, nasconde e nega il dolore. La Speranza invece tiene tutto insieme, non nega nulla di ciò che compone l'uomo. Non dimentica le sofferenze e i patimenti, ma fornisce un senso e una prospettiva. Ne abbiamo tanto bisogno.
