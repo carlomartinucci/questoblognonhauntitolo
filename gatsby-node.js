@@ -42,6 +42,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // Create redirects
 
   createRedirect({ fromPath: "/last", toPath: posts[0].fields.slug })
+  createRedirect({
+    fromPath: "/wp-login.php",
+    toPath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  })
 
   // Create blog posts pages
   // `context` is available in the template as a prop and as a variable in GraphQL
