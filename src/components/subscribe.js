@@ -49,7 +49,11 @@ const Subscribe = props => {
           handleChangeName={handleChangeName}
         >
           Se invece sei già iscritto alla newsletter,{" "}
-          <button className="btn-link" onClick={setAlreadySubscribed}>
+          <button
+            className="btn-link"
+            onClick={setAlreadySubscribed}
+            type="button"
+          >
             nascondi questo form
           </button>
           .
