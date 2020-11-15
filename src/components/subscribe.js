@@ -4,7 +4,9 @@ import addToMailchimp from "gatsby-plugin-mailchimp"
 
 const Subscribe = props => {
   const [cookieState, setCookieState] = useCookie("subscribed", "ready")
-  const [state, setState] = useState(cookieState)
+  const [state, setState] = useState(() =>
+    cookieState === "subscribed" ? "subscribed" : "ready"
+  )
   const [email, setEmail] = useState("")
   const [name, setName] = useState("")
   const [error, setError] = useState(null)
