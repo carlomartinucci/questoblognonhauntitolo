@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react"
+import useCookie from "../hooks/useCookie"
 import addToMailchimp from "gatsby-plugin-mailchimp"
 
 const Subscribe = props => {
-  const [state, setState] = useState("ready")
+  const [cookieState, setCookieState] = useCookie("subscribed", "ready")
+  const [state, setState] = useState(() =>
+    cookieState === "subscribed" ? "subscribed" : "ready"
+  )
   const [email, setEmail] = useState("")
   const [name, setName] = useState("")
   const [error, setError] = useState(null)
@@ -13,11 +17,12 @@ const Subscribe = props => {
   const handleSubmit = e => {
     e.preventDefault()
     setError(null)
-    setState("error")
+    setState("submitting")
     addToMailchimp(email, { FNAME: name })
       .then(({ result, msg }) => {
         if (result === "success") {
           setState("success")
+          setCookieState("subscribed")
         } else {
           setState("error")
           setError(msg)
@@ -26,6 +31,11 @@ const Subscribe = props => {
       .catch(_error => {
         setState("error")
       })
+  }
+
+  const setAlreadySubscribed = e => {
+    setState("subscribed")
+    setCookieState("subscribed")
   }
 
   switch (state) {
@@ -37,7 +47,17 @@ const Subscribe = props => {
           handleChangeEmail={handleChangeEmail}
           name={name}
           handleChangeName={handleChangeName}
-        />
+        >
+          Se invece sei già iscritto alla newsletter,{" "}
+          <button
+            className="btn-link"
+            onClick={setAlreadySubscribed}
+            type="button"
+          >
+            nascondi questo form
+          </button>
+          .
+        </Form>
       )
     case "submitting":
       return (
@@ -92,6 +112,17 @@ const Subscribe = props => {
             )}
           </span>
         </Form>
+      )
+    case "subscribed":
+      return (
+        <p>
+          Grazie per esserti iscritto alla mia newsletter! Se vuoi puoi{" "}
+          <button className="btn-link" onClick={e => setState("ready")}>
+            iscriverti nuovamente
+          </button>
+          , ad esempio se hai cambiato indirizzo email o per qualsiasi altra
+          ragione.
+        </p>
       )
     default:
       return ""
