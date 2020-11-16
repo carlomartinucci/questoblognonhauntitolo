@@ -1,11 +1,11 @@
 ---
 title: Sono tempi difficili e di grande confusione.
-date: "2020-11-15"
+date: "2020-11-16"
 description: Non sono in grado di dire se siano tempi più difficili rispetto ad altri.
-newsletter:
+newsletter: Tu hai letto l'enciclica Spe Salvi, di Benedetto XVI, del 2007? Mi è venuto in mente di riprenderla in mano, confidando di trovare qualcosa di interessante, e devo dire che non sono rimasto deluso. Ne ho estratto qualche riflessione, spero che possa esserti utile tanto quanto lo è stata per me!
 ---
 
-Viene in mente Giovanni Lindo Ferretti, quando [canta](https://www.youtube.com/watch?v=ZA8G48tl97s) "certo le circostanze non sono favorevoli - e quando mai? Bisognerebbe... bisognerebbe niente: bisogna quello che è, bisogna il presente". Non mi metto dunque a fare confronti, ma solo ad annotare che osservo in tanti amici confusione, amarezza, e la tentazione allo scoraggiamento, a causa (anche) delle tante terribili notizie che vengono dal mondo.
+Giovanni Lindo Ferretti [canterebbe](https://www.youtube.com/watch?v=ZA8G48tl97s) "certo le circostanze non sono favorevoli - e quando mai? Bisognerebbe... bisognerebbe niente: bisogna quello che è, bisogna il presente". Non mi metto dunque a fare confronti, ma solo ad annotare che osservo in tanti amici confusione, amarezza, e la tentazione allo scoraggiamento, a causa (anche) delle tante terribili notizie che vengono dal mondo.
 
 Solo per evocarne alcune: la pandemia globale e le reazioni dei singoli e dei governi, il rinnovato sterminio degli Armeni e la (non) risposta internazionale, le vittime francesi dell'odio islamista (Nadine Devillers, Vincent Loquès, Simon Barreto-Silva, Samuel Paty, Hervé Cornara, Jean-Baptiste Salvaing, Jessica Schneider, Jacques Hamel e tutti gli altri, ignoti a noi ma non a Dio), la situazione dei cristiani in Cina, India e tante parti del mondo.
 
