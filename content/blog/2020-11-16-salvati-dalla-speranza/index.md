@@ -2,7 +2,7 @@
 title: Sono tempi difficili e di grande confusione.
 date: "2020-11-16"
 description: Non sono in grado di dire se siano tempi più difficili rispetto ad altri.
-newsletter: Tu hai letto l'enciclica Spe Salvi, di Benedetto XVI, del 2007? Mi è venuto in mente di riprenderla in mano, confidando di trovare qualcosa di interessante, e devo dire che non sono rimasto deluso. Ne ho estratto qualche riflessione, spero che possa esserti utile tanto quanto lo è stata per me!
+newsletter: "Tu hai letto l'enciclica Spe Salvi, di Benedetto XVI, del 2007? Mi è venuto in mente di riprenderla in mano, confidando di trovare qualcosa di interessante, e devo dire che non sono rimasto deluso. Ne ho estratto qualche riflessione, spero che possa esserti utile tanto quanto lo è stata per me!"
 ---
 
 Giovanni Lindo Ferretti [canterebbe](https://www.youtube.com/watch?v=ZA8G48tl97s) "certo le circostanze non sono favorevoli - e quando mai? Bisognerebbe... bisognerebbe niente: bisogna quello che è, bisogna il presente". Non mi metto dunque a fare confronti, ma solo ad annotare che osservo in tanti amici confusione, amarezza, e la tentazione allo scoraggiamento, a causa (anche) delle tante terribili notizie che vengono dal mondo.
