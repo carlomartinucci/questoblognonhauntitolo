@@ -297,6 +297,10 @@ a:focus {
   display: inline;
 }
 
+.d-none {
+  display: none;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

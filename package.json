@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "questoblognonhauntitolo",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "description": "Un blog senza titolo",
+  "version": "1.0.0",
+  "author": "Carlo Martinucci <carlo.m@hey.com>",
   "dependencies": {
     "fontsource-merriweather": "^3.0.9",
     "fontsource-montserrat": "^3.0.9",
@@ -37,15 +34,13 @@
   "devDependencies": {
     "prettier": "2.2.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "http://questoblognonhauntitolo.netlify.app/",
   "keywords": [
-    "gatsby"
+    "blog"
   ],
-  "license": "0BSD",
-  "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/carlomartinucci/questoblognonhauntitolo.git"
   },
   "scripts": {
     "build": "gatsby build",
