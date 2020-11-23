@@ -1,6 +1,6 @@
 ---
 title: "Probabilmente, la maggior parte dei tuoi amici ha un giro mentale simile al tuo."
-date: "2020-11-20"
+date: "2020-11-24"
 description: "Non identico: come diceva Oscar Wilde, se due persone hanno le stesse identiche idee, una sola delle due sta pensando."
 newsletter: "Hai visto The Social Dilemma, su Netflix? E' un docu-film che contiene degli spunti molto interessanti, su vari temi diversi, tutti legati alla trasformazione del mondo ad opera dei Social Network. Sto scrivendo un lungo articolo usandolo come spunto. Intanto ne ho estratto un pezzetto qui. Fammi sapere che cosa ne pensi!"
 ---
