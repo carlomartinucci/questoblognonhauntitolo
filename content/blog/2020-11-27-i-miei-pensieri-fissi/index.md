@@ -2,7 +2,7 @@
 title: "Ci sono alcune cose che tengo nel cuore e porto tutti i giorni alla memoria."
 date: "2020-11-27"
 description: 'Ho dei pensieri fissi. Non è che dico "ogni giorno alle 13 in punto penserò a questa cosa". Avere un pensiero fisso significa che ogni giorno succede qualcosa che fa pensare a quella cosa lì.'
-newsletter: ""
+newsletter: "Quali sono i tuoi pensieri fissi? Ho provato a buttare giù su carta (virtuale!) qualche mio pensiero fisso, spero siano considerazioni che possano in qualche modo arricchirti. :)"
 ---
 
 Significa che quel pensiero, quella idea, è una parte così integrante del tuo mondo e della tua visione del mondo che in un modo o nell'altro c'è sempre qualcosa che te la ricorda e che ti mette esplicitamente nella condizione di pensarci. Quel pensiero non torna all'attenzione solo i giorni festivi, o solo i giorni feriali, o solo quando sei sul tram, o solo quando fai qualcosa di specifico. Se hai un pensiero fisso, qualsiasi cosa potrebbe fartelo tornare alla mente.
