@@ -6,8 +6,8 @@ import useTimeFavicon from "../hooks/useTimeFavicon"
 
 const Layout = ({ location, title, description, rssPath, children }) => {
   useTimeFavicon()
-  const rootPath = `${__PATH_PREFIX__}/`
-  const isRootPath = location.pathname === rootPath
+  const isRootPath = location.pathname === `${__PATH_PREFIX__}/`
+  const isSubscribePath = location.pathname === `${__PATH_PREFIX__}/subscribe`
   let header
 
   if (isRootPath) {
@@ -20,6 +20,8 @@ const Layout = ({ location, title, description, rssPath, children }) => {
       ` `,
       <h2 key="h2">{description}</h2>,
     ]
+  } else if (isSubscribePath) {
+    header = ""
   } else {
     header = (
       <Link to="/">

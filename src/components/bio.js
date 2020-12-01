@@ -50,8 +50,6 @@ const Bio = () => {
       {author?.name && (
         <p>
           Ciao, sono <strong>{author.name}</strong>, {author?.summary || null}.
-          Se vuoi, scrivimi a{" "}
-          <a href={`mailto:${author.email}`}>{author.email}</a>.
         </p>
       )}
     </div>

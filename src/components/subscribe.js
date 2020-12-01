@@ -38,94 +38,102 @@ const Subscribe = props => {
     setCookieState("subscribed")
   }
 
-  switch (state) {
-    case "ready":
-      return (
-        <Form
-          onSubmit={handleSubmit}
-          email={email}
-          handleChangeEmail={handleChangeEmail}
-          name={name}
-          handleChangeName={handleChangeName}
+  if (
+    (state === "ready" && props.neverHide) ||
+    (state === "subscribed" && props.neverHide)
+  ) {
+    return (
+      <Form
+        onSubmit={handleSubmit}
+        email={email}
+        handleChangeEmail={handleChangeEmail}
+        name={name}
+        handleChangeName={handleChangeName}
+      />
+    )
+  } else if (state === "ready") {
+    return (
+      <Form
+        onSubmit={handleSubmit}
+        email={email}
+        handleChangeEmail={handleChangeEmail}
+        name={name}
+        handleChangeName={handleChangeName}
+      >
+        Se invece sei già iscritto alla newsletter,{" "}
+        <button
+          className="btn-link"
+          onClick={setAlreadySubscribed}
+          type="button"
         >
-          Se invece sei già iscritto alla newsletter,{" "}
-          <button
-            className="btn-link"
-            onClick={setAlreadySubscribed}
-            type="button"
-          >
-            nascondi questo form
-          </button>
-          .
-        </Form>
-      )
-    case "submitting":
-      return (
-        <Form
-          onSubmit={handleSubmit}
-          email={email}
-          handleChangeEmail={handleChangeEmail}
-          name={name}
-          disabled
-          handleChangeName={handleChangeName}
-        >
-          Un momento di pazienza, ti sto registrando alla mia mailing list :)
-        </Form>
-      )
-
-    case "success":
-      return (
-        <Form
-          onSubmit={handleSubmit}
-          email={email}
-          handleChangeEmail={handleChangeEmail}
-          name={name}
-          disabled
-          handleChangeName={handleChangeName}
-        >
-          Ottimo <b>{name}</b>, ti ho registrato alla mia mailing list con il
-          tuo indirizzo <b>{email}</b>!{" "}
-          <b>
-            Controlla il tuo indirizzo email e clicca il link di conferma per
-            confermare la tua iscrizione!
-          </b>
-        </Form>
-      )
-    case "error":
-      return (
-        <Form
-          onSubmit={handleSubmit}
-          email={email}
-          handleChangeEmail={handleChangeEmail}
-          name={name}
-          handleChangeName={handleChangeName}
-        >
-          <span style={{ color: "red" }}>
-            {error ? (
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: error,
-                }}
-              />
-            ) : (
-              "C'è stato un errore non meglio identificato. Potresti riprovare, per favore?"
-            )}
-          </span>
-        </Form>
-      )
-    case "subscribed":
-      return (
-        <p>
-          Grazie per esserti iscritto alla mia newsletter! Se vuoi puoi{" "}
-          <button className="btn-link" onClick={e => setState("ready")}>
-            iscriverti nuovamente
-          </button>
-          , ad esempio se hai cambiato indirizzo email o per qualsiasi altra
-          ragione.
-        </p>
-      )
-    default:
-      return ""
+          nascondi questo form
+        </button>
+        .
+      </Form>
+    )
+  } else if (state === "submitting") {
+    return (
+      <Form
+        onSubmit={handleSubmit}
+        email={email}
+        handleChangeEmail={handleChangeEmail}
+        name={name}
+        disabled
+        handleChangeName={handleChangeName}
+      >
+        Un momento di pazienza, ti sto registrando alla mia mailing list :)
+      </Form>
+    )
+  } else if (state === "success") {
+    return (
+      <Form
+        onSubmit={handleSubmit}
+        email={email}
+        handleChangeEmail={handleChangeEmail}
+        name={name}
+        disabled
+        handleChangeName={handleChangeName}
+      >
+        Ottimo <b>{name}</b>, ti ho registrato alla mia mailing list con il tuo
+        indirizzo <b>{email}</b>!{" "}
+        <b>
+          Controlla il tuo indirizzo email e clicca il link di conferma per
+          confermare la tua iscrizione!
+        </b>
+      </Form>
+    )
+  } else if (state === "error") {
+    return (
+      <Form
+        onSubmit={handleSubmit}
+        email={email}
+        handleChangeEmail={handleChangeEmail}
+        name={name}
+        handleChangeName={handleChangeName}
+      >
+        <span style={{ color: "red" }}>
+          {error ? (
+            <span
+              dangerouslySetInnerHTML={{
+                __html: error,
+              }}
+            />
+          ) : (
+            "C'è stato un errore non meglio identificato. Potresti riprovare, per favore?"
+          )}
+        </span>
+      </Form>
+    )
+  } else if (state === "subscribed") {
+    return (
+      <p>
+        Grazie per esserti iscritto alla mia newsletter! Se vuoi puoi{" "}
+        <button className="btn-link" onClick={e => setState("ready")}>
+          iscriverti nuovamente
+        </button>{" "}
+        (ad esempio se hai cambiato indirizzo email).
+      </p>
+    )
   }
 }
 
