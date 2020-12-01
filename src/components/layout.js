@@ -7,7 +7,7 @@ import useTimeFavicon from "../hooks/useTimeFavicon"
 const Layout = ({ location, title, description, rssPath, children }) => {
   useTimeFavicon()
   const isRootPath = location.pathname === `${__PATH_PREFIX__}/`
-  const isSubscribePath = location.pathname === `${__PATH_PREFIX__}/subscribe`
+  const isSubscribePath = location.pathname === `${__PATH_PREFIX__}/subscribe/`
   let header
 
   if (isRootPath) {
