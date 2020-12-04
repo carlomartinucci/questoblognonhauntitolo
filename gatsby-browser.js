@@ -1,3 +1,6 @@
+// web share polyfill
+import "share-api-polyfill"
+
 // custom typefaces
 import "fontsource-montserrat/latin.css"
 import "fontsource-merriweather/latin.css"
