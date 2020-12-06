@@ -9,7 +9,6 @@ import SEO from "../components/seo"
 const SubscribePage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const siteDescription = data.site.siteMetadata.description
-  const posts = data.allMarkdownRemark.nodes
 
   return (
     <Layout
@@ -37,19 +36,6 @@ export const pageQuery = graphql`
         title
         description
         rssPath
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      nodes {
-        excerpt
-        fields {
-          slug
-        }
-        frontmatter {
-          date(formatString: "MMMM DD, YYYY")
-          title
-          description
-        }
       }
     }
   }

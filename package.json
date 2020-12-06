@@ -29,9 +29,15 @@
     "prismjs": "^1.22.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "share-api-polyfill": "^1.0.20"
   },
   "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "2.2.0"
   },
   "homepage": "http://questoblognonhauntitolo.netlify.app/",
@@ -44,7 +50,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop --host=0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

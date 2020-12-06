@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Subscribe from "../components/subscribe"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Share from "../components/share"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -37,11 +38,19 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           itemProp="articleBody"
         />
         <hr />
-        <footer>
-          <Bio />
-          <Subscribe />
-        </footer>
       </article>
+
+      <Share
+        title={post.frontmatter.title}
+        text={post.frontmatter.description || post.excerpt}
+        url={location.href}
+      />
+
+      <footer>
+        <Bio />
+        <Subscribe />
+      </footer>
+
       <nav className="blog-post-nav">
         <ul
           style={{
