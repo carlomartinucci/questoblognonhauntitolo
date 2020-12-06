@@ -41,9 +41,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       </article>
 
       <Share
-        url={location.href}
         title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        text={post.frontmatter.description || post.excerpt}
+        url={location.href}
       />
 
       <footer>

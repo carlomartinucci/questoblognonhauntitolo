@@ -1,6 +1,10 @@
-import React, { useState, useEffect } from "react"
-import useCookie from "../hooks/useCookie"
+import React, { useState } from "react"
 import addToMailchimp from "gatsby-plugin-mailchimp"
+
+import placeholders from "./subscribe/placeholders"
+
+import useCookie from "../hooks/useCookie"
+import useRandom from "../hooks/useRandom"
 
 const Subscribe = props => {
   const [cookieState, setCookieState] = useCookie("subscribed", "ready")
@@ -190,63 +194,5 @@ const Form = ({
     </form>
   )
 }
-
-const placeholders = [
-  ["Guybrush", "guybrush.ulysses@threepwood.com"],
-  ["Chuckie", "le.chuck@vodoo.com"],
-  ["Elaine", "elaine.marley@melee.gov"],
-  ["Benjamin", "benjamin.sisko@starfleet.com"],
-  ["Jadzia", "jadzia.dax@trill.com"],
-  ["Boba", "boba.fett@bountyhunter.com"],
-  ["Sheev", "senator.palpatine@naboo.gov"],
-  ["Luke", "luke.skywalker@force.jedi"],
-  ["Leia", "leia.organa@rebel.com"],
-  ["Han", "han.solo@rebel.com"],
-  ["Yoda", "yoda@force.jedi"],
-  ["Frodo", "frodo.baggins@theshire.com"],
-  ["Gollum", "gollum.smeagol@myprecious.mor"],
-  ["Theoden", "king.theoden@rohan.gov"],
-  ["Harry", "harry.potter@gryffindor.hog"],
-  ["Hermione", "hermione.granger@gryffindor.hog"],
-  ["Garrick", "garrick.ollivander@ravenclaw.hog"],
-  ["Luna", "luna.lovegood@ravenclaw.hog"],
-  ["Draco", "draco.malfoy@slytherin.hog"],
-  ["Tom", "dark.lord@youknowwho.evil"],
-  [
-    "Daenerys",
-    "daenerys.targaryen@FirstofHerNameQueenoftheAndalsandtheFirstMenProtectoroftheSevenKingdomstheMotherofDragonstheKhaleesioftheGreatGrassSeatheUnburnttheBreakerofChains.7k",
-  ],
-  ["Sirius", "sirius.black@orderofthephoenyx.org"],
-  ["Cedric", "cedric.diggory@hufflepuff.hog"],
-  ["Nymphadora", "nymphadora.tonks@hufflepuff.hog"],
-  ["Molly", "molly.weasley@orderofthephoenyx.org"],
-  ["Arthur", "arthur.weasley@ministerofmagic.gov"],
-  ["Severus", "severus.snape@hogwarts.hog"],
-  ["Jon", "jon.snow@youknownothing.dumb"],
-  ["King", "stannis.baratheon@onetrueking.storm"],
-  ["Petyr", "petyr.littlefinger@masterofcoin.gov"],
-  ["Jaime", "jaime.lannister@kingslayer.net"],
-  ["Kahl", "kahl.drogo@dotraki.org"],
-  ["Walter", "walter.white@eisenberg.com"],
-  ["Alicia", "alicia.florrick@chumhum.com"],
-  ["Varys", "lord.varys@masterofwhispers.gov"],
-  ["Aerys", "aerys.targaryen@burnthemall.crazy"],
-  ["Hodor", "hodor@hodor.hodor"],
-  // president bartlet
-]
-
-const useRandom = array => {
-  const [value, setValue] = useState(null)
-
-  useEffect(() => {
-    if (value === null) {
-      setValue(array[Math.floor(Math.random() * array.length)])
-    }
-  }, [array, value, setValue])
-
-  return value
-}
-
-// const sample = array => array[Math.floor(Math.random() * array.length)]
 
 export default Subscribe

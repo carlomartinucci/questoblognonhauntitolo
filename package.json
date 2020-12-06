@@ -33,6 +33,11 @@
     "share-api-polyfill": "^1.0.20"
   },
   "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "2.2.0"
   },
   "homepage": "http://questoblognonhauntitolo.netlify.app/",
