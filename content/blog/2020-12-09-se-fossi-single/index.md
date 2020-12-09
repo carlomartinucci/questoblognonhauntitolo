@@ -7,7 +7,7 @@ newsletter: "Rispetto a tanti altri amici siamo fortunati: non ci manca nulla e 
 
 speriamo in qualche giorno di tornare alla "normalità".
 
-Nei giorni scorsi invece un caro amico, Gianmaria, mi ha mostrato dei dati, da lui raccolti e elaborati a partire da fonte Istat, che mostrano l'aumento di mortalità di quest'anno rispetto alla media degli ultimi 5 anni. Stiamo parlando di circa 45 mila persone in più, unicamente nella fascia sopra i 55 anni e in particolare sopra gli 80, mentre la mortalità nelle fascie più giovani della popolazione è (leggermente) diminuita.
+Nei giorni scorsi invece un caro amico, Gianmaria, mi ha mostrato dei dati, da lui raccolti e elaborati a partire da fonte Istat, che mostrano l'aumento di mortalità di quest'anno rispetto alla media degli ultimi 5 anni. Stiamo parlando di circa 45 mila persone in più, unicamente nella fascia sopra i 55 anni e in particolare sopra gli 80, mentre la mortalità nelle fasce più giovani della popolazione è (leggermente) diminuita.
 
 Detto in altri termini: quest'anno, tra gennaio e settembre, sono morte in Italia circa quarantacinque mila persone in più rispetto alla media degli scorsi anni. Di queste 45mila, 36mila avevano più di 80 anni. Con una postilla: soprattutto per settembre, i decessi saranno di più di quelli indicati perché ogni volta, spiega l’Istat, il mese più vicino a quello del rilascio ha sempre dati sottostimati.
 
