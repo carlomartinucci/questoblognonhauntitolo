@@ -17,7 +17,16 @@ Gianmaria ha elaborato i dati, dopo averli estratti da 4 file Excel con i decess
 
 > Fonte: https://www.istat.it/it/archivio/240401 > Dati decessi 2015-2020
 
-Mi sembra che questi dati siano estremamente significativi. Non si va per il sottile nel cercare valutazioni che è difficile fare già caso per caso, del tipo "questa persona è morta per coronavirus o con coronavirus". Non si cerca di attribuire la causa del decesso ad ogni decesso: si prende il dato nel suo complesso, si confronta con quanto ci si sarebbe aspettato e si guarda se la variazione rientra in una normale variabilità statistica o no. C'è da prendere un minuto e guardarsi bene questa tabella, ricordarsi certo che dietro ogni numero c'è un Giacomo, una Benedetta, un Raffaele, e che ciascuno ne tragga le proprie riflessioni.
+<details class="m-p">
+<summary>
+Per i dati estesi ad ogni singolo anno, per valutare anche il trend, clicca qui
+</summary>
+
+![Dati decessi 2015-2020 estesi](./decessi2015-2020.png)
+
+</details>
+
+Mi sembra che questi dati siano estremamente significativi. Non si va per il sottile nel cercare valutazioni che è difficile fare già caso per caso, del tipo "questa persona è morta per coronavirus o con coronavirus". Non si cerca di attribuire la causa del decesso ad ogni decesso: si prende il dato nel suo complesso, si confronta con quanto è accaduto gli scorsi anni e si guarda se la variazione rientra in una normale variabilità statistica o no. C'è da prendere un minuto e guardarsi bene questa tabella, ricordarsi certo che dietro ogni numero c'è un Giacomo, una Benedetta, un Raffaele, e che ciascuno ne tragga le proprie riflessioni.
 
 Avrei una serie di considerazioni sulla inadeguatezza - a dire il meno - di questo governo nella gestione della pandemia, e forse di quasi tutti i governi almeno occidentali. Ma non voglio soffermarmici, perché l'incapacità di affrontare seriamente e per tempo la pandemia e la cialtronaggine che questo dimostra è così enorme che mi lascia sinceramente incredulo e atterrito.
 
