@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import BlogPost from "../components/BlogPost"
 import Subscribe from "../components/subscribe"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,23 +23,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article
-        className="blog-post"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <header>
-          <p>{post.frontmatter.date}</p>
-        </header>
-        <h1>{post.frontmatter.title}</h1>{" "}
-        <h2>{post.frontmatter.description}</h2>
-        <section
-          className="d-inline"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-          itemProp="articleBody"
-        />
-        <hr />
-      </article>
+
+      <BlogPost post={post} />
 
       <Share
         title={post.frontmatter.title}
