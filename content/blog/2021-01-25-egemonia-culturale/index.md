@@ -2,7 +2,7 @@
 title: "Gramsci diceva che se vuoi conquistare il potere, prima devi conquistare la cultura."
 date: "2021-01-25"
 description: "Solo in questo modo puoi avere entrambi, cioè dominio e direzione intellettuale, solo in questo modo un gruppo sociale può essere in posizione di supremazia."
-newsletter: ""
+newsletter: "Qualche tempo fa ho scritto una riflessione su Facebook, ma ho commesso un errore: ho parlato di attualità per fare anche un discorso più ampio. Ovviamente non stato capito, ma è colpa mia: ho contravvenuto al mio principio di non commentare un fatto di attualità prima che fosse passato un tempo adeguato :) Comunque, ora ho provato a svolgere quella riflessione in una forma un po' più estesa. Dettaglio tecnico: ho colorato alcune parole per rafforzare i collegamenti tra alcuni concetti, ma non sono sicuro di come venga via email. Se il testo è tutto dello stesso colore, ti suggerisco di leggerlo dal blog."
 ---
 
 L'ordine è importante: "*Un gruppo sociale può e anzi deve essere dirigente già prima di conquistare il potere governativo (è questa una delle condizioni principali per la stessa conquista del potere)*". (dai [Quaderni dal Carcere](https://it.wikipedia.org/wiki/Quaderni_del_carcere), citati su [Wikipedia](https://it.wikipedia.org/wiki/Egemonia_culturale))
