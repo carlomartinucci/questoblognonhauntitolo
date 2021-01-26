@@ -13,7 +13,7 @@ Più precisamente, devi conquistare gli intellettuali e occupare i posti chiave 
 
 Cambio un attimo discorso, ma solo apparentemente: poi i fili si ricollegano. Che cos'è il bullismo? Tempo fa, un amico mi ha dato una definizione folgorante: il bullismo è “*il tentativo di stabilire l’identità di un’altra persona attraverso la violenza (di qualunque tipo)*”.
 
-L'enfasi è sull'identità. Ad esempio: ti spingo contro un muro per dimostrarti che sei un debole. Ti derido di fronte a tutti dicendo che sei un sfigato. Insomma: decido io chi sei tu. Il bullo impone al bullizzato una identità che non è la sua, ma che è funzionale all'identità del bullo stesso.
+L'enfasi è sull'identità. Ad esempio: ti spingo contro un muro per dimostrarti che sei un debole. Ti derido di fronte a tutti dicendo che sei uno sfigato. Insomma: decido io chi sei tu. Il bullo impone al bullizzato una identità che non è la sua, ma che è funzionale all'identità del bullo stesso.
 
 Questo funziona se la vittima non è in grado di reagire, e la reazione non è (solo) questione di prestanza fisica, quanto di sicurezza della propria identità: tu potrai anche costringermi contro un muro, ma se io sono certo della mia identità, la tua violenza non potrà intaccarla. Questo è il motivo per cui il bullismo è più comune tra adolescenti, quando la personalità e l'identità non è ancora ben definita.
 
