@@ -15,7 +15,7 @@ Cambio un attimo discorso, ma solo apparentemente: poi i fili si ricollegano. Ch
 
 L'enfasi è sull'identità. Ad esempio: ti spingo contro un muro per dimostrarti che sei un debole. Ti derido di fronte a tutti dicendo che sei uno sfigato. Insomma: decido io chi sei tu. Il bullo impone al bullizzato una identità che non è la sua, ma che è funzionale all'identità del bullo stesso.
 
-Questo funziona se la vittima non è in grado di reagire, e la reazione non è (solo) questione di prestanza fisica, quanto di sicurezza della propria identità: tu potrai anche costringermi contro un muro, ma se io sono certo della mia identità, la tua violenza non potrà intaccarla. Questo è il motivo per cui il bullismo è più comune tra adolescenti, quando la personalità e l'identità non è ancora ben definita.
+Questo funziona se la vittima non è in grado di reagire, e la reazione non è (solo) questione di prestanza fisica, quanto di sicurezza della propria identità: tu potrai anche costringermi contro un muro, ma se io sono certo della mia identità, la tua violenza non potrà intaccarla. Questo è il motivo per cui il bullismo è più comune tra adolescenti, quando la personalità e l'identità non sono ancora ben definite.
 
 In altri termini: l'unico che può intaccare la dignità di una persona è lui stesso, nessun altro può, nessuna umiliazione esterna, nessuna condizione imbarazzante. Pensate a Gesù Cristo, nudo, morente, appeso alla croce, insultato da tutti: eppure, qualcuno potrebbe paradossalmente considerare quello come il momento massimo della sua Gloria.
 
