@@ -46,6 +46,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     fromPath: "/wp-login.php",
     toPath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   })
+  // Jan 31, 2021 spike. Get lost, you freak.
+  createRedirect({
+    fromPath: "/trafficbot.live",
+    toPath: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+  })
 
   // Create blog posts pages
   // `context` is available in the template as a prop and as a variable in GraphQL
