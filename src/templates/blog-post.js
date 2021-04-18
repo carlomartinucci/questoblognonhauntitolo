@@ -2,7 +2,10 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+
 import BlogPost from "../components/BlogPost"
+import Video from "../components/Video"
+
 import Subscribe from "../components/subscribe"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -24,9 +27,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         description={post.frontmatter.description || post.excerpt}
       />
 
-      <BlogPost post={post} />
+      { post.frontmatter.type == "video" ? <Video video={post} /> : <BlogPost post={post} />}
 
       <Share
+        shareType={ post.frontmatter.type || "articolo" }
         title={post.frontmatter.title}
         text={post.frontmatter.description || post.excerpt}
         url={location.href}
@@ -86,6 +90,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "DD MMMM YYYY")
         description
+        type
+        link
       }
     }
   }

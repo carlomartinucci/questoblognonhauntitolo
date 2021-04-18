@@ -6,7 +6,7 @@ module.exports = {
       summary: `un tizio che ha deciso che il mondo va a rotoli perché le persone si fermano ai titoli`,
       email: "carlo.m@hey.com",
     },
-    description: `Per leggere questo blog non puoi fermarti al titolo, perché non c'è. In compenso ci sono degli articoli (anch'essi senza titolo). Spero tu possa trovarci qualcosa di interessante, utile o inaspettato, e che tu abbia voglia di scrivermi che cosa ne pensi :)`,
+    description: `Per leggere questo blog non puoi fermarti al titolo, perché non c'è. In compenso ci sono degli articoli (anch'essi senza titolo) e qualche video.`,
     siteUrl: `https://questoblognonhauntitolo.netlify.app/`,
     rssPath: `/rss.xml`,
   },
@@ -16,6 +16,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/video`,
+        name: `video`,
       },
     },
     {

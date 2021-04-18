@@ -293,6 +293,11 @@ a:focus {
   margin: var(--spacing-0);
 }
 
+.blog-post__video-section {
+  margin-top: var(--spacing-5);
+  margin-bottom: var(--spacing-5);
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
