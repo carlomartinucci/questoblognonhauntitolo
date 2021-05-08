@@ -32,7 +32,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <Share
         shareType={ post.frontmatter.type || "articolo" }
         title={post.frontmatter.title}
-        text={post.frontmatter.description || post.excerpt}
+        text={shareText(post.frontmatter.title)}
         url={location.href}
       />
 
@@ -54,14 +54,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+                ← {emoji(previous)} &nbsp; {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
               <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+                {next.frontmatter.title} {emoji(next)} &nbsp; →
               </Link>
             )}
           </li>
@@ -69,6 +69,18 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       </nav>
     </Layout>
   )
+}
+
+const shareText = (title) => {
+  if (title[title.length - 1] === ".") {
+    return `${title} Una riflessione di Carlo Martinucci`
+  } else {
+    return `${title}. Una riflessione di Carlo Martinucci`
+  }
+}
+
+const emoji = (post) => {
+  return post.frontmatter.type === "video" ? "🎥" : "📃"
 }
 
 export default BlogPostTemplate
